@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f7f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color: #0a1931;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0 20px 0;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: #ffd700;
+    color: #0a244e;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-colour 0.3s ease;
+}
+.btn:hover{
+    background-color: #f1c40f;
+}
